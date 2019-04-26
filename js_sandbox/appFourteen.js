@@ -14,8 +14,9 @@ function test(){
 }
 test();
 
+
+//block scope
 if(true){
-    //block scope
     var a = 4;
     let b = 5;
     const c = 6; 
